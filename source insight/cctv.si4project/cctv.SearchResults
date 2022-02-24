@@ -1,0 +1,311 @@
+---- start Matches (291 in 42 files) ----
+NoiseCheckClicked in AVManageWid.cxx (W:\project\cctv\cctv\CCTV) : 		StartNoiseMonitor(0);
+NoiseCheckClicked in AVManageWid.cxx (W:\project\cctv\cctv\CCTV) : 		StartNoiseMonitor(1);
+main_cctv in CCTV.cxx (W:\project\cctv\cctv\CCTV) :                 StartNtp();
+CCTVWid.cxx (W:\project\cctv\cctv\CCTV) line 1947 : int StartNtp()
+My_CCTV_Window::ShowCCTVResp in CCTVWid.cxx (W:\project\cctv\cctv\CCTV) :     StartNtp();
+InitCCTV in CCTVWid.cxx (W:\project\cctv\cctv\CCTV) : 	sprintf(tLog.acLogDesc,"cctv %s start",g_acCCTVVersion);
+CCTVWid.h (W:\project\cctv\cctv\CCTV) line 20 : int  StartNtp();
+GetHardwareAuthResult in CMPlayer.cpp (W:\project\cctv\cctv\CMPlayer) :     iRet = access("/sbin/start.sh", F_OK);
+CMP_OpenMediaPreview in CMPlayer.cpp (W:\project\cctv\cctv\CMPlayer) : 	iRet = VDEC_StartVideoDec(ptCmpPlayer->VHandle);
+CMP_OpenMediaPreview in CMPlayer.cpp (W:\project\cctv\cctv\CMPlayer) :     	DebugPrint(DEBUG_CMPLAYER_ERROR_PRINT, "CMP_OpenMediaPreview error! VDEC_StartVideoDec error, err=%d\n", iRet);
+CMP_OpenMediaFile in CMPlayer.cpp (W:\project\cctv\cctv\CMPlayer) : 	iRet = VDEC_StartVideoDec(ptCmpPlayer->VHandle);
+CMP_OpenMediaFile in CMPlayer.cpp (W:\project\cctv\cctv\CMPlayer) :     	DebugPrint(DEBUG_CMPLAYER_ERROR_PRINT, "CMP_OpenMediaFile error! VDEC_StartVideoDec error, err=%d\n", iRet);
+_E_CMP_ERRCODE in CMPlayer.h (W:\project\cctv\cctv\CMPlayer) :     CMP_VDECSTART_ERR = -6,				//∆Ù∂Ø ”∆µΩ‚¬Î ß∞‹
+_E_CMP_ERRCODE in CMPlayer.h (W:\project\cctv\cctv\include) :     CMP_VDECSTART_ERR = -6,				//∆Ù∂Ø ”∆µΩ‚¬Î ß∞‹
+_E_DEBUG_MSG in debug.c (W:\project\cctv\cctv\debugout) :     DEBUG_START     = 0x01, 
+DebugPrint in debug.c (W:\project\cctv\cctv\debugout) :             va_start(args,format);
+DebugPrint in debug.c (W:\project\cctv\cctv\debugout) :            /* va_start(args,format);
+DebugPrint in debug.c (W:\project\cctv\cctv\debugout) :             va_start(args,format);
+DebugCmdProcess in debug.c (W:\project\cctv\cctv\debugout) :                     case DEBUG_START:
+DebugCmdProcess in debug.c (W:\project\cctv\cctv\debugout) :                         sprintf(acBuf, "Debuger print start, level %x\r\n", g_uiPrintLevel);
+Enumerations.H (W:\project\cctv\include\FL) line 385 : #define FL_Media_Play   0xEF14   /* Start playing of audio     */
+Enumerations.H (W:\project\cctv\include\FL) line 627 :    		are starting with an underscore. Also, there are three
+Enumerations.H (W:\project\cctv\include\FL) line 699 :       starting at the left side of the widget, outside labels are right-justified and
+Fl in Fl.H (W:\project\cctv\include\FL) :       /// When switched on, moving the text cursor beyond the start or end of
+Fl in Fl.H (W:\project\cctv\include\FL) :     normal windows with OpenGL with gl_start() and gl_end().
+Fl_Bitmap in Fl_Bitmap.H (W:\project\cctv\include\FL) :   int start(int XP, int YP, int WP, int HP, int &cx, int &cy, 
+Fl_Browser.H (W:\project\cctv\include\FL) line 24 : // start from 1, and 0 means "no line".
+Fl_Browser.H (W:\project\cctv\include\FL) line 41 :   start at one</I> (this is so that zero can be reserved for "no line" in
+Fl_Browser in Fl_Browser.H (W:\project\cctv\include\FL) :     A string of formatting codes at the start of each column are stripped off
+Fl_Browser in Fl_Browser.H (W:\project\cctv\include\FL) :     \li <tt>'\@\@'</tt> Print rest of line starting with '\@'
+Fl_Browser in Fl_Browser.H (W:\project\cctv\include\FL) :     string starts with a digit or has the format character in it.
+Fl_Browser in Fl_Browser.H (W:\project\cctv\include\FL) :   b->add("USER\tPID\tCPU\tMEM\tVSZ\tRSS\tTTY\tSTAT\tSTART\tTIME\tCOMMAND");
+Fl_Device.H (W:\project\cctv\include\FL) line 46 :  pixels from scanline \p y, starting at pixel \p x
+Fl_Graphics_Driver in Fl_Device.H (W:\project\cctv\include\FL) :   friend void fl_arc(double x, double y, double r, double start, double end);
+Fl_Graphics_Driver in Fl_Device.H (W:\project\cctv\include\FL) :   friend FL_EXPORT void gl_start();
+Fl_Graphics_Driver in Fl_Device.H (W:\project\cctv\include\FL) :   /** \brief see fl_arc(double x, double y, double r, double start, double end). */
+Fl_Graphics_Driver in Fl_Device.H (W:\project\cctv\include\FL) :   virtual void arc(double x, double y, double r, double start, double end);
+fl_draw.H (W:\project\cctv\include\FL) line 292 :  are the starting and ending angle of the arc, \p a2 must be greater or equal
+fl_draw.H (W:\project\cctv\include\FL) line 297 :  double version fl_arc(double x, double y, double r, double start, double end)
+fl_draw.H (W:\project\cctv\include\FL) line 300 :  \param[in] a1,a2 start and end angles of arc measured in degrees
+fl_draw.H (W:\project\cctv\include\FL) line 313 :  \param[in] a1,a2 start and end angles of arc measured in degrees
+fl_draw.H (W:\project\cctv\include\FL) line 360 :  Starts drawing a list of points. Points are added to the list with fl_vertex()
+fl_draw.H (W:\project\cctv\include\FL) line 364 :  Starts drawing a list of lines.
+fl_draw.H (W:\project\cctv\include\FL) line 368 :  Starts drawing a closed sequence of lines.
+fl_draw.H (W:\project\cctv\include\FL) line 372 :  Starts drawing a convex filled polygon.
+fl_draw.H (W:\project\cctv\include\FL) line 383 :  \param[in] X0,Y0 curve start point
+fl_draw.H (W:\project\cctv\include\FL) line 394 :  \param[in] start,end angles of start and end of arc measured in degrees
+fl_draw.H (W:\project\cctv\include\FL) line 395 :  counter-clockwise from 3 o'clock. If \p end is less than \p start
+fl_draw.H (W:\project\cctv\include\FL) line 416 : inline void fl_arc(double x, double y, double r, double start, double end) {fl_graphics_driver->arc(x,y,r,start,end); }
+fl_draw.H (W:\project\cctv\include\FL) line 442 :  Starts drawing a complex filled polygon.
+fl_draw.H (W:\project\cctv\include\FL) line 597 :   Draws a nul-terminated UTF-8 string starting at the given \p x, \p y location.
+fl_draw.H (W:\project\cctv\include\FL) line 608 :   Draws a nul-terminated UTF-8 string starting at the given \p x, \p y location and 
+fl_draw.H (W:\project\cctv\include\FL) line 616 :  Draws starting at the given \p x, \p y location a UTF-8 string of length \p n bytes.
+fl_draw.H (W:\project\cctv\include\FL) line 625 :   Draws a UTF-8 string of length \p n bytes right to left starting at the given \p x, \p y location.
+fl_draw.H (W:\project\cctv\include\FL) line 708 :   \p w pixels from scanline \p y, starting at pixel \p x, to this buffer.
+fl_draw.H (W:\project\cctv\include\FL) line 716 :   copy the data over so the \p x'th pixel is at the start of the buffer.
+Fl_File_Icon in Fl_File_Icon.H (W:\project\cctv\include\FL) :     LINE,			// Start of line
+Fl_File_Icon in Fl_File_Icon.H (W:\project\cctv\include\FL) :     CLOSEDLINE,			// Start of closed line
+Fl_File_Icon in Fl_File_Icon.H (W:\project\cctv\include\FL) :     POLYGON,			// Start of polygon
+Fl_Help_Block in Fl_Help_View.H (W:\project\cctv\include\FL) :   const char	*start,		// Start of text
+Fl_Help_Block in Fl_Help_View.H (W:\project\cctv\include\FL) :   int		x,		// Indentation/starting X coordinate
+Fl_Help_Block in Fl_Help_View.H (W:\project\cctv\include\FL) : 		y,		// Starting Y coordinate
+Fl_Help_Block in Fl_Help_View.H (W:\project\cctv\include\FL) :   int		line[32];	// Left starting position for each line
+Fl_Input.H (W:\project\cctv\include\FL) line 165 :       <B>Move to start of line.</B> <BR>
+Fl_Input.H (W:\project\cctv\include\FL) line 180 :       In single line input, moves to start of line.
+Fl_Input.H (W:\project\cctv\include\FL) line 181 :       In multiline input, moves to start of top line.
+Fl_Input_ in Fl_Input_.H (W:\project\cctv\include\FL) :   /* Find the start of a word. */
+Fl_Input_ in Fl_Input_.H (W:\project\cctv\include\FL) :   int word_start(int i) const;
+Fl_Input_ in Fl_Input_.H (W:\project\cctv\include\FL) :   /* Find the start of a line. */
+Fl_Input_ in Fl_Input_.H (W:\project\cctv\include\FL) :   int line_start(int i) const;
+Fl_Native_File_Chooser.H (W:\project\cctv\include\FL) line 97 :  at the start of main(), to enable the nicer looking file browser widgets.
+Fl_Paged_Device in Fl_Paged_Device.H (W:\project\cctv\include\FL) :   virtual int start_job(int pagecount, int *frompage = NULL, int *topage = NULL);
+Fl_Paged_Device in Fl_Paged_Device.H (W:\project\cctv\include\FL) :   virtual int start_page(void);
+Fl_Plugin.H (W:\project\cctv\include\FL) line 36 :  early during startup. Plugins are stored in a temporary database, organized
+Fl_PostScript_Graphics_Driver in Fl_PostScript.H (W:\project\cctv\include\FL) :   int start_postscript (int pagecount, enum Fl_Paged_Device::Page_Format format, enum Fl_Paged_Device::Page_Layout layout);
+Fl_PostScript_Graphics_Driver in Fl_PostScript.H (W:\project\cctv\include\FL) :   void arc(double x, double y, double r, double start, double a);
+Fl_PostScript_File_Device in Fl_PostScript.H (W:\project\cctv\include\FL) :   int start_job(int pagecount, int* from, int* to);
+Fl_PostScript_File_Device in Fl_PostScript.H (W:\project\cctv\include\FL) :   int start_job(int pagecount, enum Fl_Paged_Device::Page_Format format = Fl_Paged_Device::A4,
+Fl_PostScript_File_Device in Fl_PostScript.H (W:\project\cctv\include\FL) :   int start_job(FILE *ps_output, int pagecount, enum Fl_Paged_Device::Page_Format format = Fl_Paged_Device::A4, 
+Fl_PostScript_File_Device in Fl_PostScript.H (W:\project\cctv\include\FL) :   int start_page (void);
+Fl_Preferences.H (W:\project\cctv\include\FL) line 30 :    settings between application starts.
+Fl_Preferences.H (W:\project\cctv\include\FL) line 55 :    \note Starting with FLTK 1.3, preference databases are expected to
+Fl_System_Printer in Fl_Printer.H (W:\project\cctv\include\FL) :   int start_job(int pagecount, int *frompage = NULL, int *topage = NULL);
+Fl_System_Printer in Fl_Printer.H (W:\project\cctv\include\FL) :   int start_page (void);
+Fl_PostScript_Printer in Fl_Printer.H (W:\project\cctv\include\FL) :   int start_job(int pages, int *firstpage = NULL, int *lastpage = NULL);
+Fl_Printer.H (W:\project\cctv\include\FL) line 128 :  In both cases, begin by start_job(), start_page(), printable_rect() and origin() calls
+Fl_Printer in Fl_Printer.H (W:\project\cctv\include\FL) :   int start_job(int pagecount, int *frompage = NULL, int *topage = NULL);
+Fl_Printer in Fl_Printer.H (W:\project\cctv\include\FL) :   int start_page(void);
+Fl_Table::TableContext in Fl_Table.H (W:\project\cctv\include\FL) :     CONTEXT_STARTPAGE  = 0x01,	///< before a page is redrawn
+Fl_Table in Fl_Table.H (W:\project\cctv\include\FL) :   int _dragging_x;			// starting x position for horiz drag
+Fl_Table in Fl_Table.H (W:\project\cctv\include\FL) :   int _dragging_y;			// starting y position for vert drag
+Fl_Table in Fl_Table.H (W:\project\cctv\include\FL) :   void _start_auto_drag();
+Fl_Table in Fl_Table.H (W:\project\cctv\include\FL) :    <td>\p Fl_Table::CONTEXT_STARTPAGE</td>
+Fl_Table in Fl_Table.H (W:\project\cctv\include\FL) : 	   case CONTEXT_STARTPAGE:             // Fl_Table telling us its starting to draw page
+Fl_Table in Fl_Table.H (W:\project\cctv\include\FL) :    CONTEXT_STARTPAGE to figure out what cells are about to be redrawn
+Fl_Text_Selection in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :    \param start byte offset to first selected character
+Fl_Text_Selection in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :   void set(int start, int end);
+Fl_Text_Selection in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :   int start() const { return mStart; }
+Fl_Text_Selection in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :    \param start retrun byte offset to first selected character
+Fl_Text_Selection in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :   int position(int* start, int* end) const;
+Fl_Text_Selection in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :   int mStart;         ///< byte offset to the first selected character
+Fl_Text_Buffer.H (W:\project\cctv\include\FL) line 149 :  function calls must be aligned to the start of a UTF-8 sequence. All indices 
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :    Return a copy of the text between \p start and \p end character positions
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :    from text buffer \p buf. Positions start at 0, and the range does not
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :    \param start byte offset to first character
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :   char* text_range(int start, int end) const;
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :    Positions start at 0 
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :    Positions start at 0 
+Fl_Text_Buffer::address in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :   { return (pos < mGapStart) ? mBuf+pos : mBuf+pos+mGapEnd-mGapStart; }
+Fl_Text_Buffer::address in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :   { return (pos < mGapStart) ? mBuf+pos : mBuf+pos+mGapEnd-mGapStart; }
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :    \param start byte offset to first character to be removed
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :   void remove(int start, int end);
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :    Deletes the characters between \p start and \p end, and inserts the null-terminated string \p text in their place in the buffer.
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :    \param start byte offset to first character to be removed and new insert position
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :   void replace(int start, int end, const char *text);
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :    \param fromStart byte offset into buffer
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :   void copy(Fl_Text_Buffer* fromBuf, int fromStart, int fromEnd, int toPos);
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :   int outputfile(const char *file, int start, int end, int buflen = 128*1024);
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :   void select(int start, int end);
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :   int selection_position(int* start, int* end);
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :   void secondary_select(int start, int end);
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :   int secondary_selection_position(int* start, int* end);
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :   void highlight(int start, int end);
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :    Highlights the specified text between \p start and \p end within the buffer.
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :   int highlight_position(int* start, int* end);
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :    Returns the position of the start of the line containing position \p pos. 
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :    \return byte offset to line start
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :   int line_start(int pos) const;
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :    Returns the position corresponding to the start of the word 
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :    \return byte offset to word start
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :   int word_start(int pos) const;
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :    \p lineStartPos and \p targetPos. (displayed characters are the characters
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :   int count_displayed_characters(int lineStartPos, int targetPos) const;
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :    Count forward from buffer position \p startPos in displayed characters
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :    \param lineStartPos byte offset into buffer
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :   int skip_displayed_characters(int lineStartPos, int nChars);
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :    Counts the number of newlines between \p startPos and \p endPos in buffer.
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :   int count_lines(int startPos, int endPos) const;
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :    Finds the first character of the line \p nLines forward from \p startPos
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :   int skip_lines(int startPos, int nLines);
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :    from \p startPos (not counting the character pointed to by \p startpos if
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :   int rewind_lines(int startPos, int nLines);
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :    Search forwards in buffer for character \p searchChar, starting
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :    with the character \p startPos, and returning the result in \p foundPos
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :    \param startPos byte offset to start position
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :   int findchar_forward(int startPos, unsigned searchChar, int* foundPos) const;
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :    Search backwards in buffer \p buf for character \p searchChar, starting
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :    with the character BEFORE \p startPos, returning the result in \p foundPos
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :    \param startPos byte offset to start position
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :   int findchar_backward(int startPos, unsigned int searchChar, int* foundPos) const;
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :    Search forwards in buffer for string \p searchString, starting with the
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :    character \p startPos, and returning the result in \p foundPos
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :    \param startPos byte offset to start position
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :   int search_forward(int startPos, const char* searchString, int* foundPos,
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :    Search backwards in buffer for string <i>searchCharssearchString</i>, starting with the
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :    character BEFORE \p startPos, returning the result in \p foundPos
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :    \param startPos byte offset to start position
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :   int search_backward(int startPos, const char* searchString, int* foundPos,
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :    of the buffer between start and end (and moves the gap to the site of
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :   void remove_(int start, int end);
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :    Move the gap to start at a new position.
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :    Reallocates the text storage in the buffer to have a gap starting at \p newGapStart
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :   void reallocate_with_gap(int newGapStart, int newGapLen);
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :                                    gapEnd - gapStart + length) */
+Fl_Text_Buffer in Fl_Text_Buffer.H (W:\project\cctv\include\FL) :   int mGapStart;                  /**< points to the first character of the gap */
+Fl_Text_Display in Fl_Text_Display.H (W:\project\cctv\include\FL) :    start a collection selects by character, double clicking selects by
+Fl_Text_Display in Fl_Text_Display.H (W:\project\cctv\include\FL) :     DRAG_START_DND = -1,
+Fl_Text_Display in Fl_Text_Display.H (W:\project\cctv\include\FL) :   void redisplay_range(int start, int end);
+Fl_Text_Display in Fl_Text_Display.H (W:\project\cctv\include\FL) :   int count_lines(int start, int end, bool start_pos_is_line_start) const;
+Fl_Text_Display in Fl_Text_Display.H (W:\project\cctv\include\FL) :   int line_start(int pos) const;
+Fl_Text_Display in Fl_Text_Display.H (W:\project\cctv\include\FL) :   int line_end(int startPos, bool startPosIsLineStart) const;
+Fl_Text_Display in Fl_Text_Display.H (W:\project\cctv\include\FL) :   int skip_lines(int startPos, int nLines, bool startPosIsLineStart);
+Fl_Text_Display in Fl_Text_Display.H (W:\project\cctv\include\FL) :   int rewind_lines(int startPos, int nLines);
+Fl_Text_Display in Fl_Text_Display.H (W:\project\cctv\include\FL) :    \param pos start calculation at this index
+Fl_Text_Display in Fl_Text_Display.H (W:\project\cctv\include\FL) :   int word_start(int pos) const { return buffer()->word_start(pos); }
+Fl_Text_Display in Fl_Text_Display.H (W:\project\cctv\include\FL) :    \param pos start calculation at this index
+Fl_Text_Display in Fl_Text_Display.H (W:\project\cctv\include\FL) :   int position_style(int lineStartPos, int lineLen, int lineIndex) const;
+Fl_Text_Display in Fl_Text_Display.H (W:\project\cctv\include\FL) :   void draw_range(int start, int end);
+Fl_Text_Display::handle_vline in Fl_Text_Display.H (W:\project\cctv\include\FL) :                    int lineStart, int lineLen, int leftChar, int rightChar,
+Fl_Text_Display in Fl_Text_Display.H (W:\project\cctv\include\FL) :   void offset_line_starts(int newTopLineNum);
+Fl_Text_Display in Fl_Text_Display.H (W:\project\cctv\include\FL) :   void calc_line_starts(int startLine, int endLine);
+Fl_Text_Display in Fl_Text_Display.H (W:\project\cctv\include\FL) :   void update_line_starts(int pos, int charsInserted, int charsDeleted,
+Fl_Text_Display in Fl_Text_Display.H (W:\project\cctv\include\FL) :   void extend_range_for_styles(int* start, int* end);
+Fl_Text_Display::find_wrap_range in Fl_Text_Display.H (W:\project\cctv\include\FL) :                        int nDeleted, int *modRangeStart, int *modRangeEnd,
+Fl_Text_Display in Fl_Text_Display.H (W:\project\cctv\include\FL) :   void wrapped_line_counter(Fl_Text_Buffer *buf, int startPos, int maxPos,
+Fl_Text_Display::wrapped_line_counter in Fl_Text_Display.H (W:\project\cctv\include\FL) :                             int maxLines, bool startPosIsLineStart,
+Fl_Text_Display::wrapped_line_counter in Fl_Text_Display.H (W:\project\cctv\include\FL) :                             int *retLineStart, int *retLineEnd,
+Fl_Text_Display in Fl_Text_Display.H (W:\project\cctv\include\FL) :   void find_line_end(int pos, bool start_pos_is_line_start, int *lineEnd,
+Fl_Text_Display::find_line_end in Fl_Text_Display.H (W:\project\cctv\include\FL) :                      int *nextLineStart) const;
+Fl_Text_Display in Fl_Text_Display.H (W:\project\cctv\include\FL) :   int damage_range1_start, damage_range1_end;
+Fl_Text_Display in Fl_Text_Display.H (W:\project\cctv\include\FL) :   int damage_range2_start, damage_range2_end;
+Fl_Text_Display in Fl_Text_Display.H (W:\project\cctv\include\FL) :   int* mLineStarts;
+Fl_Text_Display in Fl_Text_Display.H (W:\project\cctv\include\FL) :                                  starts during buffer updates */
+Fl_Tree in Fl_Tree.H (W:\project\cctv\include\FL) :   Fl_Tree_Item *next_visible_item(Fl_Tree_Item *start, int dir);
+Fl_Tree in Fl_Tree.H (W:\project\cctv\include\FL) :   Fl_Tree_Item *next_visible_item(Fl_Tree_Item *start, int dir);	// made public in 1.3.3 ABI
+fl_utf8.h (W:\project\cctv\include\FL) line 101 : /* F2: Move forward to the next valid UTF8 sequence start betwen start and end */
+fl_utf8.h (W:\project\cctv\include\FL) line 102 : FL_EXPORT const char* fl_utf8fwd(const char* p, const char* start, const char* end);
+fl_utf8.h (W:\project\cctv\include\FL) line 104 : /* F2: Move backward to the previous valid UTF8 sequence start */
+fl_utf8.h (W:\project\cctv\include\FL) line 105 : FL_EXPORT const char* fl_utf8back(const char* p, const char* start, const char* end);
+Fl_Widget.H (W:\project\cctv\include\FL) line 1009 :     Reserved type numbers (necessary for my cheapo RTTI) start here.
+ftpApi.c (W:\project\cctv\cctv\ftp) line 536 : int FTP_SetStartOffset(T_FTP_CONNECTION_INFO *ftp)
+FTP_UploadDataSendThread in ftpApi.c (W:\project\cctv\cctv\ftp) : 		        iRet = FTP_SetStartOffset(ptFtpConnectionInfo);
+gl.h (W:\project\cctv\include\FL) line 13 : // gl_start() and gl_finish() to allow OpenGL to be used in any window
+gl.h (W:\project\cctv\include\FL) line 63 : FL_EXPORT void gl_start();
+glu.h (W:\project\cctv\include\FL) line 13 : // gl_start() and gl_finish() to allow OpenGL to be used in any window
+ipu_irq_line in ipu.h (W:\project\cctv\cctv\vdec\include) : 	IPU_IRQ_DP_SF_START = 448 + 2,
+ipu_sdc_init_panel in ipu.h (W:\project\cctv\cctv\vdec\include) : 			   uint16_t hStartWidth, uint16_t hSyncWidth,
+ipu_sdc_init_panel in ipu.h (W:\project\cctv\cctv\vdec\include) : 			   uint16_t hEndWidth, uint16_t vStartWidth,
+ipu_init_sync_panel in ipu.h (W:\project\cctv\cctv\vdec\include) : 			    uint16_t h_start_width, uint16_t h_sync_width,
+ipu_init_sync_panel in ipu.h (W:\project\cctv\cctv\vdec\include) : 			    uint16_t h_end_width, uint16_t v_start_width,
+_ipu_sdc_panel_info in ipu.h (W:\project\cctv\cctv\vdec\include) : 	uint16_t hStartWidth;
+_ipu_sdc_panel_info in ipu.h (W:\project\cctv\cctv\vdec\include) : 	uint16_t vStartWidth;
+ipu_createtask in ipuapi.c (W:\project\cctv\cctv\vdec) : 	pIpuTask->output.paddr  = g_fbFix.smem_start ;
+jerror.h (W:\project\cctv\include\FL\images) line 103 : JMESSAGE(JERR_NO_SOI, "Not a JPEG file: starts with 0x%02x 0x%02x")
+jerror.h (W:\project\cctv\include\FL\images) line 136 : JMESSAGE(JTRC_DRI, "Define Restart Interval %u")
+jerror.h (W:\project\cctv\include\FL\images) line 157 : JMESSAGE(JTRC_SOF, "Start Of Frame 0x%02x: width=%u, height=%u, components=%d")
+jerror.h (W:\project\cctv\include\FL\images) line 159 : JMESSAGE(JTRC_SOI, "Start of Image")
+jerror.h (W:\project\cctv\include\FL\images) line 160 : JMESSAGE(JTRC_SOS, "Start Of Scan: %d components")
+{anonjpeg_component_info} in jpeglib.h (W:\project\cctv\include\FL\images) :   /* These values are computed during compression or decompression startup: */
+{anonjpeg_component_info} in jpeglib.h (W:\project\cctv\include\FL\images) :   /* These values are computed before starting a scan of the component. */
+jpeg_compress_struct in jpeglib.h (W:\project\cctv\include\FL\images) :    * outer application before starting compression.  in_color_space must
+jpeg_compress_struct in jpeglib.h (W:\project\cctv\include\FL\images) :    * jpeg_start_compress().  We recommend calling jpeg_set_defaults() to
+jpeg_compress_struct in jpeglib.h (W:\project\cctv\include\FL\images) :    * These fields are computed by jpeg_start_compress().
+jpeg_compress_struct in jpeglib.h (W:\project\cctv\include\FL\images) :    * in advance of calling jpeg_start_compress().
+jpeg_compress_struct in jpeglib.h (W:\project\cctv\include\FL\images) :   /* The restart interval can be specified in absolute MCUs by setting
+jpeg_compress_struct in jpeglib.h (W:\project\cctv\include\FL\images) :    * restart_interval, or in MCU rows by setting restart_in_rows
+jpeg_compress_struct in jpeglib.h (W:\project\cctv\include\FL\images) :    * (in which case the correct restart_interval will be figured
+jpeg_compress_struct in jpeglib.h (W:\project\cctv\include\FL\images) :   unsigned int restart_interval; /* MCUs per restart, or 0 for no restart */
+jpeg_compress_struct in jpeglib.h (W:\project\cctv\include\FL\images) :   int restart_in_rows;		/* if > 0, MCU rows per restart interval */
+jpeg_compress_struct in jpeglib.h (W:\project\cctv\include\FL\images) :    * These fields are computed during compression startup
+jpeg_decompress_struct in jpeglib.h (W:\project\cctv\include\FL\images) :    * calling jpeg_start_decompress().  Note that jpeg_read_header() initializes
+jpeg_decompress_struct in jpeglib.h (W:\project\cctv\include\FL\images) :    * These fields are computed by jpeg_start_decompress().
+jpeg_decompress_struct in jpeglib.h (W:\project\cctv\include\FL\images) :    * in advance of calling jpeg_start_decompress().
+jpeg_decompress_struct in jpeglib.h (W:\project\cctv\include\FL\images) :    * calling jpeg_start_decompress; otherwise a colormap is created during
+jpeg_decompress_struct in jpeglib.h (W:\project\cctv\include\FL\images) :    * jpeg_start_decompress or jpeg_start_output.
+jpeg_decompress_struct in jpeglib.h (W:\project\cctv\include\FL\images) :   unsigned int restart_interval; /* MCUs per restart interval, or 0 for no restart */
+jpeg_decompress_struct in jpeglib.h (W:\project\cctv\include\FL\images) :    * These fields are computed during decompression startup
+jpeg_error_mgr in jpeglib.h (W:\project\cctv\include\FL\images) :   /* Reset error state variables at start of a new image */
+jpeg_source_mgr in jpeglib.h (W:\project\cctv\include\FL\images) :   JMETHOD(boolean, resync_to_restart, (j_decompress_ptr cinfo, int desired));
+jpeg_memory_mgr::JMETHOD in jpeglib.h (W:\project\cctv\include\FL\images) : 					   JDIMENSION start_row,
+jpeg_memory_mgr::JMETHOD in jpeglib.h (W:\project\cctv\include\FL\images) : 					    JDIMENSION start_row,
+jpeglib.h (W:\project\cctv\include\FL\images) line 892 : #define jpeg_start_compress	jStrtCompress
+jpeglib.h (W:\project\cctv\include\FL\images) line 902 : #define jpeg_start_decompress	jStrtDecompress
+jpeglib.h (W:\project\cctv\include\FL\images) line 907 : #define jpeg_start_output	jStrtOutput
+jpeglib.h (W:\project\cctv\include\FL\images) line 923 : #define jpeg_resync_to_restart	jResyncRestart
+jpeglib.h (W:\project\cctv\include\FL\images) line 990 : EXTERN(void) jpeg_start_compress JPP((j_compress_ptr cinfo,
+jpeglib.h (W:\project\cctv\include\FL\images) line 1018 : /* Decompression startup: read start of JPEG datastream to see what's there */
+jpeglib.h (W:\project\cctv\include\FL\images) line 1032 : EXTERN(boolean) jpeg_start_decompress JPP((j_decompress_ptr cinfo));
+jpeglib.h (W:\project\cctv\include\FL\images) line 1045 : EXTERN(boolean) jpeg_start_output JPP((j_decompress_ptr cinfo,
+jpeglib.h (W:\project\cctv\include\FL\images) line 1053 : #define JPEG_REACHED_SOS	1 /* Reached start of new scan */
+EXTERN in jpeglib.h (W:\project\cctv\include\FL\images) : /* Default restart-marker-resync procedure for use by data source modules */
+EXTERN in jpeglib.h (W:\project\cctv\include\FL\images) : EXTERN(boolean) jpeg_resync_to_restart JPP((j_decompress_ptr cinfo,
+_T_MSG_QUERY_TIME_INFO in log.h (W:\project\cctv\cctv\include) :     T_LOG_TIME_INFO tStartTime;
+_T_MSG_QUERY_TIME_INFO in log.h (W:\project\cctv\cctv\log) :     T_LOG_TIME_INFO tStartTime;
+Fl_X in mac.H (W:\project\cctv\include\FL) :   int unlink(Fl_X* start = NULL);
+md5.c (W:\project\cctv\cctv\rtsp) line 44 :  * Start MD5 accumulation.  Set bit count to 0 and buffer to mysterious
+fl_message_x in message_x.cxx (W:\project\cctv\cctv\CCTV) :   va_start(ap, fmt);
+---- LOG_WriteLog Matches (17 in 9 files) ----
+SetBtnClick in AVManageWid.cxx (W:\project\cctv\cctv\CCTV) : 			LOG_WriteLog(&tLog);
+CheckDispStateTimer in CCTVWid.cxx (W:\project\cctv\cctv\CCTV) : 		LOG_WriteLog(&tLog);
+InitCCTV in CCTVWid.cxx (W:\project\cctv\cctv\CCTV) : 	LOG_WriteLog(&tLog);
+FTP_DownloadDataRecvThread in ftpApi.c (W:\project\cctv\cctv\ftp) : 						LOG_WriteLog(&tLog);
+log.c (W:\project\cctv\cctv\log) line 123 : int LOG_WriteLog(PT_LOG_INFO ptLog)
+log.h (W:\project\cctv\cctv\include) line 54 : int LOG_WriteLog(PT_LOG_INFO ptLog);
+log.h (W:\project\cctv\cctv\log) line 54 : int LOG_WriteLog(PT_LOG_INFO ptLog);
+MultcastRecvThread in pmsgproc.c (W:\project\cctv\cctv\pmsg) : 				LOG_WriteLog(&tLog);
+StartNoiseMonitor in pmsgproc.c (W:\project\cctv\cctv\pmsg) : 		LOG_WriteLog(&tLog);
+adjustCarriageSpeakerVolume in pmsgproc.c (W:\project\cctv\cctv\pmsg) : 		LOG_WriteLog(&tLog);
+AdjustDynamicMapBrightness in pmsgproc.c (W:\project\cctv\cctv\pmsg) : 		LOG_WriteLog(&tLog);
+SetNvrDiskState in state.c (W:\project\cctv\cctv\state) : 		LOG_WriteLog(&tLog);
+SetNvrDiskState in state.c (W:\project\cctv\cctv\state) : 		LOG_WriteLog(&tLog);
+SetNvrDiskState in state.c (W:\project\cctv\cctv\state) : 		LOG_WriteLog(&tLog);
+PsdConfirmFun in SysManageWid.cxx (W:\project\cctv\cctv\CCTV) : 	LOG_WriteLog(&tLog);
+CheckDiskStateTimer in SysManageWid.cxx (W:\project\cctv\cctv\CCTV) : 				LOG_WriteLog(&tLog);
+CheckDiskStateTimer in SysManageWid.cxx (W:\project\cctv\cctv\CCTV) : 				LOG_WriteLog(&tLog);
+---- CopyFile Matches (6 in 2 files) ----
+fileConfig.c (W:\project\cctv\cctv\state) line 24 : static  int CopyFile(const char *pcDstFile, char *pcSrcFile)
+ModifyParam in fileConfig.c (W:\project\cctv\cctv\state) : 	CopyFile(pcFileName, acTmpName);
+DeleteParam in fileConfig.c (W:\project\cctv\cctv\state) : 	CopyFile(pcFileName, acTmpName);
+log.c (W:\project\cctv\cctv\log) line 19 : static int CopyFile(char *pcDstFile, char *pcSrcFile)
+LOG_WriteLog in log.c (W:\project\cctv\cctv\log) :             //CopyFile(acTmpName, LOG_FILE_NAME);
+LOG_WriteLog in log.c (W:\project\cctv\cctv\log) :         CopyFile(g_acLogPath, acTmpName);
+---- LOG_Init Matches (4 in 4 files) ----
+InitCCTV in CCTVWid.cxx (W:\project\cctv\cctv\CCTV) : 	LOG_Init(LOG_FILE_DIR);
+log.c (W:\project\cctv\cctv\log) line 74 : int LOG_Init(char *pLogDir)
+log.h (W:\project\cctv\cctv\include) line 52 : int LOG_Init(char *pLogDir);
+log.h (W:\project\cctv\cctv\log) line 52 : int LOG_Init(char *pLogDir);
+---- LOG_WriteLog Matches (17 in 9 files) ----
+SetBtnClick in AVManageWid.cxx (W:\project\cctv\cctv\CCTV) : 			LOG_WriteLog(&tLog);
+CheckDispStateTimer in CCTVWid.cxx (W:\project\cctv\cctv\CCTV) : 		LOG_WriteLog(&tLog);
+InitCCTV in CCTVWid.cxx (W:\project\cctv\cctv\CCTV) : 	LOG_WriteLog(&tLog);
+FTP_DownloadDataRecvThread in ftpApi.c (W:\project\cctv\cctv\ftp) : 						LOG_WriteLog(&tLog);
+log.c (W:\project\cctv\cctv\log) line 123 : int LOG_WriteLog(PT_LOG_INFO ptLog)
+log.h (W:\project\cctv\cctv\include) line 54 : int LOG_WriteLog(PT_LOG_INFO ptLog);
+log.h (W:\project\cctv\cctv\log) line 54 : int LOG_WriteLog(PT_LOG_INFO ptLog);
+MultcastRecvThread in pmsgproc.c (W:\project\cctv\cctv\pmsg) : 				LOG_WriteLog(&tLog);
+StartNoiseMonitor in pmsgproc.c (W:\project\cctv\cctv\pmsg) : 		LOG_WriteLog(&tLog);
+adjustCarriageSpeakerVolume in pmsgproc.c (W:\project\cctv\cctv\pmsg) : 		LOG_WriteLog(&tLog);
+AdjustDynamicMapBrightness in pmsgproc.c (W:\project\cctv\cctv\pmsg) : 		LOG_WriteLog(&tLog);
+SetNvrDiskState in state.c (W:\project\cctv\cctv\state) : 		LOG_WriteLog(&tLog);
+SetNvrDiskState in state.c (W:\project\cctv\cctv\state) : 		LOG_WriteLog(&tLog);
+SetNvrDiskState in state.c (W:\project\cctv\cctv\state) : 		LOG_WriteLog(&tLog);
+PsdConfirmFun in SysManageWid.cxx (W:\project\cctv\cctv\CCTV) : 	LOG_WriteLog(&tLog);
+CheckDiskStateTimer in SysManageWid.cxx (W:\project\cctv\cctv\CCTV) : 				LOG_WriteLog(&tLog);
+CheckDiskStateTimer in SysManageWid.cxx (W:\project\cctv\cctv\CCTV) : 				LOG_WriteLog(&tLog);
+---- SetNvrDiskState Matches (4 in 4 files) ----
+PmsgProc in NVRMsgProc.cxx (W:\project\cctv\cctv\CCTV) : 			SetNvrDiskState(iNvrNo, (T_DISK_STATE *)pcMsgData);
+state.c (W:\project\cctv\cctv\state) line 908 : int SetNvrDiskState(int iNvrNo,T_DISK_STATE *ptDiskState)
+state.h (W:\project\cctv\cctv\include) line 154 : int SetNvrDiskState(int iNvrNo,T_DISK_STATE *ptDiskState);
+state.h (W:\project\cctv\cctv\state) line 154 : int SetNvrDiskState(int iNvrNo,T_DISK_STATE *ptDiskState);

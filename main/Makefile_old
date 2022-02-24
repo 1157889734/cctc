@@ -1,0 +1,32 @@
+include  ../build.cfg
+CXX_pc = g++
+TAR_FILE= nbml.exe
+PC_FILE=nbml_pc.exe
+CFLAGS = -Wall\
+	-DG_DISABLE_DEPRECATED 	 	\
+	-DGDK_DISABLE_DEPRECATED 	\
+	-DGDK_PIXBUF_DISABLE_DEPRECATED \
+	-DGTK_DISABLE_DEPRECATED \
+  	-Wno-deprecated 
+
+incDirs_dg	=-I../include  -I$(XORGPATH)/include -I../HMI_DMI -I../HMI_DMI/mvb -I../CCTV	
+libDirs_dg	=-L../lib -L$(XORGPATH)/lib -L../HMI_DMI/lib -L../CCTV/lib
+LIBS_dg	= -lcctv -lpmsg -lstate -lvpu -ldhmi -lfltk -lfltk_forms -lfltk_images -lfltk_jpeg -lfltk_png  -lX11 -lXext -lXfixes\
+-lxcb -lXau -lz -lm -lpthread -ldl -lXft -lfontconfig -lXrender -lfreetype -lmvb -lhost -lsqlite3 
+
+incDirs_pc	= -I./include -I./HMI_DMI -I./HMI_DMI/mvb 
+libDirs_pc	= -L./lib_pc -L./HMI_DMI/lib_pc -L./HMI_DMI/sqlite_lib_pc
+LIBS_pc	=	-lfltk_images -lfltk -lpng -ljpeg -lz\
+			-lXrender -lXcursor -lXfixes -lXext -lXft -lfontconfig -lXinerama -lpthread  -lX11 -lpthread -ldl -lm 
+
+SRCs	=	main.cxx
+SRCs_pc = 	main_pc.cxx
+
+all: $(TAR_FILE)				
+$(TAR_FILE):$(SRCs)
+	rm  -f $(TAR_FILE)
+	$(CXX) $(SRCs) -o $(TAR_FILE) $(CFLAGS) $(libDirs_dg) $(incDirs_dg) $(LIBS_dg)	      
+	
+
+clean: 
+	rm -f *.o $(TAR_FILE)
